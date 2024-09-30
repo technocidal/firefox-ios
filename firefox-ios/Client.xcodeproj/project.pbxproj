@@ -965,6 +965,7 @@
 		A83E5B1D1C1DA8D80026D912 /* UIPasteboardExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E5B1C1C1DA8D80026D912 /* UIPasteboardExtensionsTests.swift */; };
 		A9072B801D07B34100459960 /* NoImageModeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9072B7F1D07B34100459960 /* NoImageModeHelper.swift */; };
 		A93067E81D0FE18E00C49C6E /* NightModeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93067E71D0FE18E00C49C6E /* NightModeHelper.swift */; };
+		AAC9BD602BF61D4100C4AC6A /* AppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9BD5F2BF61D4100C4AC6A /* AppShortcuts.swift */; };
 		AB03032B2AB47AF300DCD8EF /* FakespotOptInCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0303292AB47AF300DCD8EF /* FakespotOptInCardView.swift */; };
 		AB03032C2AB47AF300DCD8EF /* FakespotOptInCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03032A2AB47AF300DCD8EF /* FakespotOptInCardViewModel.swift */; };
 		AB03032F2AB8561700DCD8EF /* FakespotOptInViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03032D2AB484B700DCD8EF /* FakespotOptInViewModelTests.swift */; };
@@ -6472,6 +6473,7 @@
 		AA244A28A4D501F91E5C0FF2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
 		AA80494199BED7BAA77241A9 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/Storage.strings"; sourceTree = "<group>"; };
 		AAAB41FC97F6C8F8A1506603 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/AuthenticationManager.strings; sourceTree = "<group>"; };
+		AAC9BD5F2BF61D4100C4AC6A /* AppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShortcuts.swift; sourceTree = "<group>"; };
 		AAF64ABAB8A585208603D45B /* dsb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = dsb; path = dsb.lproj/LoginManager.strings; sourceTree = "<group>"; };
 		AB0303292AB47AF300DCD8EF /* FakespotOptInCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakespotOptInCardView.swift; sourceTree = "<group>"; };
 		AB03032A2AB47AF300DCD8EF /* FakespotOptInCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakespotOptInCardViewModel.swift; sourceTree = "<group>"; };
@@ -11885,6 +11887,7 @@
 		F84B21C01A090F8100AAB793 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				AAC9BD5F2BF61D4100C4AC6A /* AppShortcuts.swift */,
 				F84B21E41A0910F600AAB793 /* Application */,
 				F84B21EB1A0910F600AAB793 /* Assets */,
 				E60961841B62B7E100DD640F /* Configuration */,
@@ -13920,6 +13923,7 @@
 				5AA0CC662A4B8F6100014E2A /* PasswordManagerCoordinator.swift in Sources */,
 				8A7368AD27924AAF005D7704 /* CanRemoveQuickActionBookmark.swift in Sources */,
 				C2296FCC2A601C190046ECA6 /* IntensityVisualEffectView.swift in Sources */,
+				AAC9BD602BF61D4100C4AC6A /* AppShortcuts.swift in Sources */,
 				8A8917692B57283B008B01EA /* HomepageHeaderCell.swift in Sources */,
 				8ADC2A102A33758E00543DAA /* FxALaunchParams.swift in Sources */,
 				D3C3696E1CC6B78800348A61 /* LocalRequestHelper.swift in Sources */,

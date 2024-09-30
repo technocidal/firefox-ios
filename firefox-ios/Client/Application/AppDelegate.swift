@@ -93,6 +93,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         logger.log("willFinishLaunchingWithOptions end",
                    level: .info,
                    category: .lifecycle)
+        
+        if #available(iOS 16.0, *) {
+            ClientShortcuts.updateAppShortcutParameters()
+        }
 
         return true
     }
